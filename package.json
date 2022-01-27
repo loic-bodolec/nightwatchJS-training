@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-js",
+  "version": "1.0.0",
+  "description": "Nightwatch JS Tutorial Series by Testersdock.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/nightwatch/bin/nightwatch"
+  },
+  "author": "Alapan Das",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^97.0.2",
+    "fs": "^0.0.1-security",
+    "geckodriver": "^3.0.1",
+    "handlebars": "^4.7.7",
+    "nightwatch": "^1.7.13",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "selenium-server": "^3.141.59"
+  }
+}
