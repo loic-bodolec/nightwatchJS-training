@@ -12,7 +12,7 @@ module.exports = {
       .setValue('#searchInput', 'Google')
       .click('button[type="submit"]')
       .assert.containsText('h1#firstHeading', 'Google')
-      .assert.title('Google - Wikipedia')
+      .assert.title('Google — Wikipédia')
   },
 
   after : function(browser) {
