@@ -8,6 +8,7 @@ module.exports = {
     page_objects_path: "pageObjects",
     // See https://nightwatchjs.org/guide/extending-nightwatch/#writing-custom-commands
     custom_commands_path: "./commands",
+    // To enable screenshots for test failures/errors
     screenshots: {
         enabled: true,
         path: "./screenshots",
