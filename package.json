@@ -4,7 +4,7 @@
   "description": "Nightwatch JS Tutorial Series by Testersdock.com",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/nightwatch/bin/nightwatch"
+    "test": "nightwatch node_modules/nightwatch/bin/nightwatch"
   },
   "author": "Alapan Das",
   "license": "ISC",
